@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		66297C7B2012900E00D01EA1 /* FloatingAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66297C7A2012900E00D01EA1 /* FloatingAction.swift */; };
+		662AA7C3200810F90059F21D /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA7C2200810F90059F21D /* ConversationViewController.swift */; };
+		662AA7C8200919670059F21D /* LivePersonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662AA7C7200919670059F21D /* LivePersonAPI.swift */; };
 		66925E362006C8E700D2E4B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66925E352006C8E700D2E4B2 /* AppDelegate.swift */; };
 		66925E382006C8E700D2E4B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66925E372006C8E700D2E4B2 /* ViewController.swift */; };
 		66925E3B2006C8E700D2E4B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66925E392006C8E700D2E4B2 /* Main.storyboard */; };
 		66925E3D2006C8E700D2E4B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66925E3C2006C8E700D2E4B2 /* Assets.xcassets */; };
 		66925E402006C8E700D2E4B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66925E3E2006C8E700D2E4B2 /* LaunchScreen.storyboard */; };
+		66925E4F2006C9B900D2E4B2 /* LivePersonSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66925E4E2006C9B900D2E4B2 /* LivePersonSDK.swift */; };
+		66925E512006C9DB00D2E4B2 /* UIColor+LivePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66925E502006C9DB00D2E4B2 /* UIColor+LivePerson.swift */; };
+		66925E532006C9F600D2E4B2 /* UIView+LivePerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66925E522006C9F500D2E4B2 /* UIView+LivePerson.swift */; };
+		95B7011F57417C4EF238A195 /* Pods_FloatingAction.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A7CF5CFF1B9F41C5FB77A0 /* Pods_FloatingAction.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		37B41EB4FA5CC050D3E45B13 /* Pods-FloatingAction.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingAction.release.xcconfig"; path = "Pods/Target Support Files/Pods-FloatingAction/Pods-FloatingAction.release.xcconfig"; sourceTree = "<group>"; };
+		66297C7A2012900E00D01EA1 /* FloatingAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingAction.swift; sourceTree = "<group>"; };
+		662AA7C2200810F90059F21D /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		662AA7C6200910210059F21D /* FloatingAction.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = FloatingAction.entitlements; sourceTree = "<group>"; };
+		662AA7C7200919670059F21D /* LivePersonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePersonAPI.swift; sourceTree = "<group>"; };
 		66925E322006C8E700D2E4B2 /* FloatingAction.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingAction.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		66925E352006C8E700D2E4B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		66925E372006C8E700D2E4B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,11 @@
 		66925E3C2006C8E700D2E4B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		66925E3F2006C8E700D2E4B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		66925E412006C8E700D2E4B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66925E4E2006C9B900D2E4B2 /* LivePersonSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePersonSDK.swift; sourceTree = "<group>"; };
+		66925E502006C9DB00D2E4B2 /* UIColor+LivePerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+LivePerson.swift"; sourceTree = "<group>"; };
+		66925E522006C9F500D2E4B2 /* UIView+LivePerson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+LivePerson.swift"; sourceTree = "<group>"; };
+		B56561E047A57DE569C6A16C /* Pods-FloatingAction.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FloatingAction.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FloatingAction/Pods-FloatingAction.debug.xcconfig"; sourceTree = "<group>"; };
+		C3A7CF5CFF1B9F41C5FB77A0 /* Pods_FloatingAction.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FloatingAction.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +46,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95B7011F57417C4EF238A195 /* Pods_FloatingAction.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1990A2723F98446BC9F2A4CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3A7CF5CFF1B9F41C5FB77A0 /* Pods_FloatingAction.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2E13E21B7D629A5216682091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B56561E047A57DE569C6A16C /* Pods-FloatingAction.debug.xcconfig */,
+				37B41EB4FA5CC050D3E45B13 /* Pods-FloatingAction.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		66925E292006C8E700D2E4B2 = {
 			isa = PBXGroup;
 			children = (
 				66925E342006C8E700D2E4B2 /* FloatingAction */,
 				66925E332006C8E700D2E4B2 /* Products */,
+				2E13E21B7D629A5216682091 /* Pods */,
+				1990A2723F98446BC9F2A4CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +91,61 @@
 		66925E342006C8E700D2E4B2 /* FloatingAction */ = {
 			isa = PBXGroup;
 			children = (
-				66925E352006C8E700D2E4B2 /* AppDelegate.swift */,
-				66925E372006C8E700D2E4B2 /* ViewController.swift */,
-				66925E392006C8E700D2E4B2 /* Main.storyboard */,
-				66925E3C2006C8E700D2E4B2 /* Assets.xcassets */,
-				66925E3E2006C8E700D2E4B2 /* LaunchScreen.storyboard */,
+				662AA7C6200910210059F21D /* FloatingAction.entitlements */,
+				66925E4A2006C95100D2E4B2 /* Extras */,
+				66925E472006C8FF00D2E4B2 /* Delegates */,
+				66925E4D2006C99100D2E4B2 /* Messaging */,
+				66925E492006C94300D2E4B2 /* Resources */,
+				66925E482006C90800D2E4B2 /* ViewControllers */,
 				66925E412006C8E700D2E4B2 /* Info.plist */,
 			);
 			path = FloatingAction;
+			sourceTree = "<group>";
+		};
+		66925E472006C8FF00D2E4B2 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				66925E352006C8E700D2E4B2 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		66925E482006C90800D2E4B2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				66925E372006C8E700D2E4B2 /* ViewController.swift */,
+				662AA7C2200810F90059F21D /* ConversationViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		66925E492006C94300D2E4B2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66925E392006C8E700D2E4B2 /* Main.storyboard */,
+				66925E3C2006C8E700D2E4B2 /* Assets.xcassets */,
+				66925E3E2006C8E700D2E4B2 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		66925E4A2006C95100D2E4B2 /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				66925E502006C9DB00D2E4B2 /* UIColor+LivePerson.swift */,
+				66925E522006C9F500D2E4B2 /* UIView+LivePerson.swift */,
+				662AA7C7200919670059F21D /* LivePersonAPI.swift */,
+				66297C7A2012900E00D01EA1 /* FloatingAction.swift */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		66925E4D2006C99100D2E4B2 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				66925E4E2006C9B900D2E4B2 /* LivePersonSDK.swift */,
+			);
+			path = Messaging;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +155,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 66925E442006C8E700D2E4B2 /* Build configuration list for PBXNativeTarget "FloatingAction" */;
 			buildPhases = (
+				4DCAD3AA7A36E09E9E86E415 /* [CP] Check Pods Manifest.lock */,
 				66925E2E2006C8E700D2E4B2 /* Sources */,
 				66925E2F2006C8E700D2E4B2 /* Frameworks */,
 				66925E302006C8E700D2E4B2 /* Resources */,
+				9C9C292FD40C1002A4C69606 /* [CP] Embed Pods Frameworks */,
+				4E65E4B32FEC87A0838CB018 /* [CP] Copy Pods Resources */,
+				662AA7C920092D360059F21D /* TODO:FIXME:INFO Warning */,
+				662AA7CA20092D5B0059F21D /* Clean LPMessagingSDK CocoaPod */,
 			);
 			buildRules = (
 			);
@@ -97,6 +186,14 @@
 					66925E312006C8E700D2E4B2 = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -131,13 +228,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4DCAD3AA7A36E09E9E86E415 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FloatingAction-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E65E4B32FEC87A0838CB018 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FloatingAction/Pods-FloatingAction-resources.sh",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPMessagingSDKModels.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FloatingAction/Pods-FloatingAction-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		662AA7C920092D360059F21D /* TODO:FIXME:INFO Warning */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "TODO:FIXME:INFO Warning";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "KEYWORDS=\"TODO|FIXME|INFO|\\?\\?\\?:|\\!\\!\\!:\"\nfind \"${SRCROOT}\" \\( -name \"*.swift\" \\) -print0 | \\\nxargs -0 egrep --with-filename --line-number --only-matching \"($KEYWORDS).*\\$\" | \\\nperl -p -e \"s/($KEYWORDS)/ warning: \\$1/\"";
+		};
+		662AA7CA20092D5B0059F21D /* Clean LPMessagingSDK CocoaPod */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Clean LPMessagingSDK CocoaPod";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "bash \"${SRCROOT}/Pods/LPMessagingSDK/LPMessagingSDK/LPInfra.framework/frameworks-strip.sh\"";
+		};
+		9C9C292FD40C1002A4C69606 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FloatingAction/Pods-FloatingAction-frameworks.sh",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPAMS.framework",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPInfra.framework",
+				"${PODS_ROOT}/LPMessagingSDK/LPMessagingSDK/LPMessagingSDK.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LPAMS.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LPInfra.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LPMessagingSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FloatingAction/Pods-FloatingAction-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		66925E2E2006C8E700D2E4B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				662AA7C3200810F90059F21D /* ConversationViewController.swift in Sources */,
 				66925E382006C8E700D2E4B2 /* ViewController.swift in Sources */,
 				66925E362006C8E700D2E4B2 /* AppDelegate.swift in Sources */,
+				66925E4F2006C9B900D2E4B2 /* LivePersonSDK.swift in Sources */,
+				66925E512006C9DB00D2E4B2 /* UIColor+LivePerson.swift in Sources */,
+				66297C7B2012900E00D01EA1 /* FloatingAction.swift in Sources */,
+				66925E532006C9F600D2E4B2 /* UIView+LivePerson.swift in Sources */,
+				662AA7C8200919670059F21D /* LivePersonAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,8 +464,10 @@
 		};
 		66925E452006C8E700D2E4B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56561E047A57DE569C6A16C /* Pods-FloatingAction.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FloatingAction/FloatingAction.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85XMF94A4V;
 				INFOPLIST_FILE = FloatingAction/Info.plist;
@@ -287,8 +481,10 @@
 		};
 		66925E462006C8E700D2E4B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B41EB4FA5CC050D3E45B13 /* Pods-FloatingAction.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = FloatingAction/FloatingAction.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 85XMF94A4V;
 				INFOPLIST_FILE = FloatingAction/Info.plist;
