@@ -20,7 +20,7 @@ class LivePersonSDK : NSObject {
   /// LivePersonSDK Singleton
   static let shared = LivePersonSDK()
   /// TODO: By default account is "", you should use your Account Number / Brand Id
-  private let account : String  = "72740529"
+  private let account : String  = ""
   /// Conversation Query
   public var conversationQuery : ConversationParamProtocol? {
     // Return Query
