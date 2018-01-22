@@ -56,8 +56,12 @@ class ViewController: UIViewController, LivePersonAPIDelegate {
     // Add Gesture to Floating Action
     self.chatFloatingButton.addGestureRecognizer(gesture)
     
+    // Calculate X
+    let x : CGFloat = self.view.frame.width - 60 - 10
+    // Calculate Y
+    let y : CGFloat = self.view.frame.height - 60 - 10
     // Set Button Frame
-    self.chatFloatingButton.frame = CGRect(x: 330.0, y: 330.0, width: 60.0, height: 60.0)
+    self.chatFloatingButton.frame = CGRect(x: x, y: y, width: 60.0, height: 60.0)
     // TODO: Floating Action Tag - Will be needed to Update Counter from AppDelegate
     self.chatFloatingButton.tag = self.chatFloatingButton.actionTag
     // TODO: Set if ViewController has NavigationBar, this to set a MaxY to the Dragging, so the Floating Action is always visible

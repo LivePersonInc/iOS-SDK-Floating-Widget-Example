@@ -86,8 +86,6 @@ class ConversationViewController: UIViewController {
       // Resolve Conversation
       LivePersonSDK.shared.resolveConversation()
     }
-    // Resolve Conversation is only available if there is an Active one
-    resolve.isEnabled = LivePersonSDK.shared.isConversationActive
     // Set Title Depending on Current Conversation State
     let isUrgentTitle = LivePersonSDK.shared.isUrgent() ? "Dissmiss Urgent" : "Mark as Urgent"
     // Create Mark/Dismiss Urgent Action
@@ -95,14 +93,33 @@ class ConversationViewController: UIViewController {
       // Toggle Urgent State
       LivePersonSDK.shared.toggleUrgentState()
     }
-    // Mark as Urgent is only available if there is an Active one
-    urgent.isEnabled = LivePersonSDK.shared.isConversationActive
+    // Create Clear History Action
+    let clear = UIAlertAction(title: "Clear history", style: .destructive) { (alert : UIAlertAction) in
+      // Try to Clear Conversation
+      if !LivePersonSDK.shared.clearConversation() {
+        // Create Alert
+        let alert = UIAlertController(title: "Error", message: "Opps, try again later.", preferredStyle: .alert)
+        // Present Alert
+        self.present(alert, animated: true, completion: nil)
+      } else {
+        // SDK needs to Reconnect after Clearing Conversation History
+        LivePersonSDK.shared.reconnect()
+      }
+    }
     // Create Cancel - Will Dismiss AlertSheet
     let cancel = UIAlertAction(title: "Cancel", style: .cancel, handler: nil)
+    // Resolve Conversation is only available if there is an Active one
+    resolve.isEnabled = LivePersonSDK.shared.isConversationActive
+    // Mark as Urgent is only available if there is an Active one
+    urgent.isEnabled = LivePersonSDK.shared.isConversationActive
+    // Clear History is only available if there is not Active one
+    clear.isEnabled = !LivePersonSDK.shared.isConversationActive
     // Add Action - Resolve
     menu.addAction(resolve)
     // Add Action - Urgent
     menu.addAction(urgent)
+    // Add Action - Clear History
+    menu.addAction(clear)
     // Add Action - Cancel
     menu.addAction(cancel)
     // Check if Device is iPad needs to use Presentation Popover Controller

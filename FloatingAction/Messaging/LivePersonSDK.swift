@@ -135,7 +135,7 @@ class LivePersonSDK : NSObject {
   }
   
   /// Will reconnect to current Conversation
-  public func reconnect(){
+  public func reconnect() {
     // Check if ConversationQuery has been set
     if self.conversationQuery != nil {
       // INFO : LPAuthenticationParams() to needs Authentication Parameters (JWT or Auth Code)
@@ -143,6 +143,23 @@ class LivePersonSDK : NSObject {
       let authParams = LPAuthenticationParams()
       // Show Conversation
       LPMessagingSDK.instance.reconnect(self.conversationQuery!, authenticationParams: authParams)
+    }
+  }
+  
+  /// Will Clear Conversation History
+  ///
+  /// - Returns: Bool
+  public func clearConversation() -> Bool {
+    //
+    do{
+      try LPMessagingSDK.instance.clearHistory(self.conversationQuery!)
+      // Return true if conversation was Clear
+      return true
+    } catch let error as NSError {
+      // Print Error
+      print("initialize error: \(error)")
+      // Return true if conversation was not Clear
+      return false
     }
   }
   
